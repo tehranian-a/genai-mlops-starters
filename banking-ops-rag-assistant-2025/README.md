@@ -3,6 +3,7 @@
 Status: working FastAPI with /health and /ask.
 
 How to run:
+![API docs](banking-docs.png)
 1) python -m venv .venv
 2) .\.venv\Scripts\Activate.ps1
 3) pip install -r requirements.txt
