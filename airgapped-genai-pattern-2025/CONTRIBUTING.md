@@ -1,0 +1,2 @@
+# Contributing
+- Small commits.
