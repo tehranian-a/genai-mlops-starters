@@ -27,16 +27,16 @@ This project demonstrates a compact pattern for turning approved operational doc
 
 ```mermaid
 flowchart LR
-    A[User or Operator] --> B[FastAPI /ask endpoint]
-    B --> C[Basic Guardrails]
-    C --> D[Intent and Prompt Layer]
-    D --> E[Document Retrieval Layer]
-    E --> F[Vector Store]
-    F --> G[Approved Banking Procedures and Runbooks]
-    E --> H[LLM Response Layer]
-    H --> I[Grounded Answer with Next Steps]
+    A["User or Operator"] --> B["FastAPI /ask endpoint"]
+    B --> C["Basic Guardrails"]
+    C --> D["Intent and Prompt Layer"]
+    D --> E["Document Retrieval Layer"]
+    E --> F["Vector Store"]
+    F --> G["Approved Banking Procedures and Runbooks"]
+    E --> H["LLM Response Layer"]
+    H --> I["Grounded Answer with Next Steps"]
 
-    B --> J[/health endpoint]
+    B --> J["/health endpoint"]
 ```
 
 ## Current implementation
